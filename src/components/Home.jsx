@@ -44,7 +44,7 @@ const Home = ({
 
   return (
     <div className="bg-dark-primary h-screen ">
-      <div className="w-96 mx-auto flex flex-col items-center space-y-4 h-screen justify-center">
+      <div className="w-96 max-sm:w-80 mx-auto flex flex-col items-center space-y-4 h-screen justify-center">
         <h1 className="text-5xl font-extrabold mb-4 text-amber-400">
           <span className="text-teal-400 mr-2">X</span>O
         </h1>

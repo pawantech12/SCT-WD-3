@@ -76,7 +76,7 @@ const Board = ({ player1, player2, playerChoice }) => {
 
   return (
     <div className="bg-dark-primary relative">
-      <div className="flex flex-col relative items-center w-96 mx-auto justify-center h-screen">
+      <div className="flex flex-col relative items-center w-96 max-sm:w-80 mx-auto justify-center h-screen">
         <div className="flex justify-between items-center w-full">
           <h1 className="text-5xl font-extrabold text-amber-400">
             <span className="text-teal-400 mr-2">X</span>O
